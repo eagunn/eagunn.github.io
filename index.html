@@ -47,8 +47,8 @@ if (window.innerWidth === 0) {
   function animate() {
     requestAnimationFrame(animate);
 
-    mesh.rotation.x = Date.now() * 0.0005;
-    mesh.rotation.y = Date.now() * 0.001;
+    mesh.rotation.x = Date.now() * 0.005;
+    mesh.rotation.y = Date.now() * 0.005;
 
     renderer.render(scene, camera);
   }
